@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ff9daa;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    width: 380px;
+    height: 650px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    box-shadow: 5px 5px 50px
+    #c09399;
+    margin-top:180px;
+}
+
+.header-wrapper{
+    width: 380px;
+    height: 200px;
+    background-image: url(./img/photo-1545703549-7bdb1d01b734.jpg);
+    background-repeat: no-repeat;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px; 
+ 
+}
+
+.header-wrapper-svg{
+    width: 200px;
+    height: 200px;
+    box-shadow: 1px 3px   #d5d5d5;
+    background-color: #ffffff;
+    margin-top: -110px;
+    margin-left: 90px;
+    border-radius: 50%;
+}
+
+.header-wrapper-svg__01{
+    margin-top: -70px;
+    margin-left: 250px;
+}
+
+.footer{
+    width: 400px;
+    height: 410px;
+    
+}
+
+.footer-text{
+    margin-left: 48px;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-top: -7px;
+    color: #464848;
+}
+
+
+.footer-tiitle{
+    margin-left: 140px;
+    font-family: Montserrat;
+    font-weight: 200;
+    margin-top: 5px;
+    color: #b5b5b5;
+}
+
+.footer-patpiska{
+    width: 400px;
+    height: 99px;
+   
+    display: flex;
+    margin-top: 25px;
+}
+
+.footer-patpiska-light{
+    width: 190px;
+   
+}
+
+.footer-patpiska-light-text{
+    text-align: center;
+    color: #11a0fb;
+}
+
+.footer-patpiska-light--title{
+    text-align: center;
+    margin-top: 2px;
+    color: #b5b5b5;
+    font-family: Montserrat;
+}
+
+
+.footer-patpiska-right{
+    width: 160px;
+
+}
+
+
+.footer-patpiska-right-text{
+    text-align: center;
+    color: #11a0fb;
+}
+
+
+.footer-patpiska-right-title{
+    text-align: center;
+    margin-top: 2px;
+    color: #b5b5b5;
+    font-family: Montserrat;
+}
+
+
+.footer-button{
+    padding: 15px 130px ;
+    background-color: #fed01a;
+    font-size: 16px ;
+    font-family: Montserrat;
+    font-weight: 900;
+    border-radius: 40px;
+    border: 5px  solid #fed01a;
+    margin-left: 30px;
+    margin-top: -5px;
+    cursor: pointer;
+
+}
+.footer-button:hover{
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.footer-mazmuni{
+    letter-spacing: 1px;
+    line-height: -20px;
+    margin-left: 45px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color:#67666c;
+    margin-top: 20px;
+
+}
